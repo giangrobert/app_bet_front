@@ -1,0 +1,32 @@
+<!-- ----------------------------------------------------------------------------------------------------- -->
+<!-- Empty layout -->
+<!-- ----------------------------------------------------------------------------------------------------- -->
+<empty-layout *ngIf="layout === 'empty'"></empty-layout>
+
+<!-- ----------------------------------------------------------------------------------------------------- -->
+<!-- Layouts with horizontal navigation -->
+<!-- ----------------------------------------------------------------------------------------------------- -->
+
+<!-- Centered -->
+<centered-layout *ngIf="layout === 'centered'"></centered-layout>
+
+<!-- Enterprise -->
+<enterprise-layout *ngIf="layout === 'enterprise'"></enterprise-layout>
+
+<!-- Material -->
+<material-layout *ngIf="layout === 'material'"></material-layout>
+
+<!-- Modern -->
+<modern-layout *ngIf="layout === 'modern'"></modern-layout>
+
+<!-- ----------------------------------------------------------------------------------------------------- -->
+<!-- Classy -->
+<classy-layout *ngIf="layout === 'classy'"></classy-layout>
+
+<!-- Compact -->
+
+
+<!-- ----------------------------------------------------------------------------------------------------- -->
+<!-- Settings drawer - Remove this to remove the drawer and its button -->
+<!-- ----------------------------------------------------------------------------------------------------- -->
+<settings></settings>
