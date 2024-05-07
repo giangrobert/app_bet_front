@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  url: "http://localhost:4321/",
+  url: "https://appbet-production.up.railway.app/",
+
   //url: "http://pruebasback.imperiumse.com/api/",
 
 };

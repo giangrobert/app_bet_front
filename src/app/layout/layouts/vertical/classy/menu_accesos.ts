@@ -9,7 +9,6 @@ export class MenuAcceso {
     children?: MenuAcceso[];
 }
 
-
 export const dataMenu: FuseNavigationItem[] = [
     {
         id: 'config',
